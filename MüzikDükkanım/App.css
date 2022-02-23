@@ -1,0 +1,58 @@
+.main.section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.list-group{
+    max-width: 500px;
+    
+}
+.listItems{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+.list-group{
+    width: 100%;
+}
+.list-group-item:hover{
+    background-color: rgb(220, 53, 93);
+    color: white;
+}
+.productSection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.product{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    margin: 30px;
+}
+.product-img{
+    width: 100%;
+    height: 100%;
+}
+.card-title{
+    text-align: center;
+}
+.hakkımızdaSection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+}
+.hakkımızdaBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 30px;
+}
