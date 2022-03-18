@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1100px !important;
+}
+a{
+    text-decoration: none;
+}
+p{
+    margin: 0;
+}
+
+.pp{
+    border-radius: 100%;
+    width: 20px;
+    height: 20px;
+    background-image: url("./img/pixlr-bg-result\ \(5\).png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.bi{
+    font-size: 20px;
+}
+aside{
+    margin-left: auto;
+
+}
+#asidefooter a{
+    color: gray;
+    font-size: 11px;
+}
+#searchbar{
+    float: left !important;
+}
+#story{
+    overflow: auto;
+}
+#story img{
+    border: 2px solid rgb(224, 82, 82);
+}
+#commentInput:focus{
+    outline: 0;
+}
+.addComment{
+    border-bottom: 0!important;
+}
+
+
+@media(max-width:768){
+    #searchbar{
+        display: none;
+    }
+    aside{
+        display: none;
+    }
+}

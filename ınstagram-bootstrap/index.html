@@ -1,0 +1,590 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Instagram</title>
+</head>
+
+<body class="bg-light">
+    <!--* Heaader Start -->
+    <header class="bg-white p-1 fixed-top">
+        <nav class="container bg-transparent">
+            <div class="row">
+                <!--* COL-1  -->
+                <div class="col">
+                    <a href=""><img style="width: 110px; height: 45px;"
+                            src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Instagram_logo.svg/2560px-Instagram_logo.svg.png"
+                            alt=""></a>
+                </div>
+                <!--* COL-2  -->
+                <div class="col d-flex  align-items-center">
+                    <div id="searchbar" class="row">
+                        <div style="background-color: #EFEFEF;" class="border rounded-3 r">
+                            <i class="bi bi-search"></i>
+                            <input class="border-0  bg-transparent" type="text" placeholder="Ara">
+                        </div>
+                    </div>
+                </div>
+                <!--* COL-3  -->
+                <div class="col">
+                    <ul class="d-flex justify-content-around align-items-center list-unstyled h-100 g-0 ">
+                        <li><a href="index.html"><i class="bi bi-house-door-fill text-black"></i></a></li>
+                        <li><a href="index.html"><i class="bi bi-messenger text-black"></i></a></li>
+                        <li><a href="index.html"><i class="bi bi-compass text-black"></i></a></li>
+                        <li><a href="index.html"><i class="bi bi-heart text-black"></i></a></li>
+                        <li><a target="_blank" href="https://www.instagram.com/">
+                                <div class="pp"></div>
+                            </a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!--* Heaader End -->
+    <!--* Main Start -->
+    <main style="margin-top: 100px;" class="container">
+        <div class="row">
+            <div class="col-md-7 h-100 ">
+                <div id="story" class="bg-danger bg-white border" style="height: 120px;">
+                    <ul style="font-size: 14px;"
+                        class="m-0 list-unstyled h-100 d-flex flex-row align-items-center justify-content-between text-center">
+                        <li>
+                            <a href="">
+                                <img class="rounded-circle" width="66px" height="66px"
+                                    src="https://miro.medium.com/max/3150/2*TZeK0kyHTRHVv3gUi8BtQg.png" alt="">
+                                <p class="m-0">kodluyoruz</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img class="rounded-circle" width="66px" height="66px"
+                                    src="https://upload.wikimedia.org/wikipedia/commons/3/34/Elon_Musk_Royal_Society_%28crop2%29.jpg"
+                                    alt="">
+                                <p class="m-0">Elon Musk</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img class="rounded-circle" width="66px" height="66px"
+                                    src="./img/pixlr-bg-result (5).png" alt="">
+                                <p class="m-0">hllcncngz</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img class="rounded-circle" width="66px" height="66px"
+                                    src="https://patika-prod.s3.eu-central-1.amazonaws.com/staticFiles/patikaLogo.png"
+                                    alt="">
+                                <p class="m-0">Patika</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img class="rounded-circle" width="66px" height="66px"
+                                    src="https://yt3.ggpht.com/ytc/AKedOLSj2FK7hgQqQZh3yP73icIUBHrElm1blSMpOsHV=s900-c-k-c0x00ffffff-no-rj"
+                                    alt="">
+                                <p class="m-0">kablosuzkedi</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img class="rounded-circle" width="66px" height="66px"
+                                    src="https://media.kommunity.com/avatar/_avatar_5f17475759e33.jpg" alt="">
+                                <p class="m-0">cengizmataraci</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img class="rounded-circle" width="66px" height="66px"
+                                    src="https://thumbs.dreamstime.com/b/illustration-deep-space-spacex-logo-over-vector-planet-195641418.jpg"
+                                    alt="">
+                                <p class="m-0">spacex</p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div id="content" class="bg-transparent mt-5" style="height: 1500px;">
+                    <!--* POST-1 START -->
+                    <div class="post d-flex bg-light w-100 flex-column border">
+
+                        <div class="postHeader d-flex align-items-center" style="height:60px">
+                            <div class="d-flex flex-row align-items-center justify-content-between w-100">
+                                <div class="d-flex align-items-center justify-content-around"
+                                    style="margin-left: 10px;">
+                                    <a href="#"><img class="rounded-circle" width="40px" height="40px"
+                                            src="./img/pixlr-bg-result (5).png" alt=""></a>
+                                    <p class="m-0" style="margin-left: 10px !important">hllcncngz</p>
+                                </div>
+                                <div style="margin-right: 10px;">
+                                    <i class="bi bi-three-dots"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="postImage bg-info" style="height:500px">
+                            <img class="h-100 w-100"
+                                src="https://blog.biletbayi.com/wp-content/uploads/2019/12/rize.jpg" alt="">
+                        </div>
+
+                        <div class="postIcons d-flex flex-row justify-content-between align-items-center"
+                            style="height: 54px;">
+                            <div class="d-flex align-items-center" style="margin-left: 15px;">
+                                <a href="#"><svg aria-label="Beğen" class="_8-yf5 " color="#262626" fill="#262626"
+                                        height="24" role="img" viewBox="0 0 24 24" width="24">
+                                        <path
+                                            d="M16.792 3.904A4.989 4.989 0 0121.5 9.122c0 3.072-2.652 4.959-5.197 7.222-2.512 2.243-3.865 3.469-4.303 3.752-.477-.309-2.143-1.823-4.303-3.752C5.141 14.072 2.5 12.167 2.5 9.122a4.989 4.989 0 014.708-5.218 4.21 4.21 0 013.675 1.941c.84 1.175.98 1.763 1.12 1.763s.278-.588 1.11-1.766a4.17 4.17 0 013.679-1.938m0-2a6.04 6.04 0 00-4.797 2.127 6.052 6.052 0 00-4.787-2.127A6.985 6.985 0 00.5 9.122c0 3.61 2.55 5.827 5.015 7.97.283.246.569.494.853.747l1.027.918a44.998 44.998 0 003.518 3.018 2 2 0 002.174 0 45.263 45.263 0 003.626-3.115l.922-.824c.293-.26.59-.519.885-.774 2.334-2.025 4.98-4.32 4.98-7.94a6.985 6.985 0 00-6.708-7.218z">
+                                        </path>
+                                    </svg></a>
+                                <a href="#"><svg style="margin: 0 15px;" aria-label="Yorum Yap" class="_8-yf5 "
+                                        color="#262626" fill="#262626" height="24" role="img" viewBox="0 0 24 24"
+                                        width="24">
+                                        <path d="M20.656 17.008a9.993 9.993 0 10-3.59 3.615L22 22z" fill="none"
+                                            stroke="currentColor" stroke-linejoin="round" stroke-width="2"></path>
+                                    </svg></a>
+                                <a href="#"><svg aria-label="Gönderi Paylaş" class="_8-yf5 " color="#262626"
+                                        fill="#262626" height="24" role="img" viewBox="0 0 24 24" width="24">
+                                        <line fill="none" stroke="currentColor" stroke-linejoin="round" stroke-width="2"
+                                            x1="22" x2="9.218" y1="3" y2="10.083"></line>
+                                        <polygon fill="none"
+                                            points="11.698 20.334 22 3.001 2 3.001 9.218 10.084 11.698 20.334"
+                                            stroke="currentColor" stroke-linejoin="round" stroke-width="2"></polygon>
+                                    </svg></a>
+
+
+
+                            </div>
+                            <div style="margin-right: 15px;">
+                                <a href="#">
+                                    <svg aria-label="Kaydet" class="_8-yf5 " color="#262626" fill="#262626" height="24"
+                                        role="img" viewBox="0 0 24 24" width="24">
+                                        <polygon fill="none" points="20 21 12 13.44 4 21 4 3 20 3 20 21"
+                                            stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                            stroke-width="2"></polygon>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="likeScreen" style="height: 20px;">
+                            <p style="font-size: 14px; margin-left: 15px !important;" class="m-0"><b>6.618 beğenme</b>
+                            </p>
+                        </div>
+
+                        <div class="commentScreen bg-light d-flex flex-column" style="height: 60px; font-size: 14px;">
+                            <div class="h-100">
+                                <div class="d-flex" style="margin-left:15px">
+                                    <b>
+                                        <p class="userName">hllcncngz</p>
+                                    </b>
+                                    <p style="margin-left: 5px;">Burası Rize! Harika bir cennet. </p>
+                                </div>
+                                <div class="d-flex" style="margin-left:15px">
+                                    <b><a class="text-secondary" href="#">
+                                            <p>15 Yorumun tümünü gör</p>
+                                        </a></b>
+                                </div>
+                                <div class="d-flex" style="margin-left:15px">
+                                    <b>
+                                        <p class="userName">kodluyoruz</p>
+                                    </b>
+                                    <p style="margin-left: 5px;">Harika!</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="clock" style="height: 20px;">
+                            <b>
+                                <p style="margin-left: 15px; color: gray; font-size: 14px;">12 ssat önce</p>
+                            </b>
+                        </div>
+
+                        <div class="addComment border d-flex align-items-center" style="height:50px;">
+                            <div style="margin-left: 15px;">
+                                <svg aria-label="İfade Simgesi" class="_8-yf5 " color="#262626" fill="#262626"
+                                    height="24" role="img" viewBox="0 0 24 24" width="24">
+                                    <path
+                                        d="M15.83 10.997a1.167 1.167 0 101.167 1.167 1.167 1.167 0 00-1.167-1.167zm-6.5 1.167a1.167 1.167 0 10-1.166 1.167 1.167 1.167 0 001.166-1.167zm5.163 3.24a3.406 3.406 0 01-4.982.007 1 1 0 10-1.557 1.256 5.397 5.397 0 008.09 0 1 1 0 00-1.55-1.263zM12 .503a11.5 11.5 0 1011.5 11.5A11.513 11.513 0 0012 .503zm0 21a9.5 9.5 0 119.5-9.5 9.51 9.51 0 01-9.5 9.5z">
+                                    </path>
+                                </svg>
+                            </div>
+                            <div class="d-flex justify-content-between w-100">
+                                <input id="commentInput" style="margin-left: 5px;" class="border-0"
+                                    placeholder="Yorum Ekle" type="text">
+                                <a style="margin-right: 15px;" href="">Paylaş</a>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!--* POST-1 END -->
+                    <!--* POST-2 START -->
+                    <div class="post d-flex bg-light w-100 mt-5 flex-column border">
+
+                        <div class="postHeader d-flex align-items-center" style="height:60px">
+                            <div class="d-flex flex-row align-items-center justify-content-between w-100">
+                                <div class="d-flex align-items-center justify-content-around"
+                                    style="margin-left: 10px;">
+                                    <a href="#"><img class="rounded-circle" width="40px" height="40px"
+                                            src="https://miro.medium.com/max/3150/2*TZeK0kyHTRHVv3gUi8BtQg.png"
+                                            alt=""></a>
+                                    <p class="m-0" style="margin-left: 10px !important">kodluyoruz</p>
+                                </div>
+                                <div style="margin-right: 10px;">
+                                    <i class="bi bi-three-dots"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="postImage bg-info" style="height:500px">
+                            <img class="h-100 w-100"
+                                src="https://pbs.twimg.com/media/ExK6yzWWQAEg7jn?format=jpg&name=large" alt="">
+                        </div>
+
+                        <div class="postIcons d-flex flex-row justify-content-between align-items-center"
+                            style="height: 54px;">
+                            <div class="d-flex align-items-center" style="margin-left: 15px;">
+                                <a href="#"><svg aria-label="Beğen" class="_8-yf5 " color="#262626" fill="#262626"
+                                        height="24" role="img" viewBox="0 0 24 24" width="24">
+                                        <path
+                                            d="M16.792 3.904A4.989 4.989 0 0121.5 9.122c0 3.072-2.652 4.959-5.197 7.222-2.512 2.243-3.865 3.469-4.303 3.752-.477-.309-2.143-1.823-4.303-3.752C5.141 14.072 2.5 12.167 2.5 9.122a4.989 4.989 0 014.708-5.218 4.21 4.21 0 013.675 1.941c.84 1.175.98 1.763 1.12 1.763s.278-.588 1.11-1.766a4.17 4.17 0 013.679-1.938m0-2a6.04 6.04 0 00-4.797 2.127 6.052 6.052 0 00-4.787-2.127A6.985 6.985 0 00.5 9.122c0 3.61 2.55 5.827 5.015 7.97.283.246.569.494.853.747l1.027.918a44.998 44.998 0 003.518 3.018 2 2 0 002.174 0 45.263 45.263 0 003.626-3.115l.922-.824c.293-.26.59-.519.885-.774 2.334-2.025 4.98-4.32 4.98-7.94a6.985 6.985 0 00-6.708-7.218z">
+                                        </path>
+                                    </svg></a>
+                                <a href="#"><svg style="margin: 0 15px;" aria-label="Yorum Yap" class="_8-yf5 "
+                                        color="#262626" fill="#262626" height="24" role="img" viewBox="0 0 24 24"
+                                        width="24">
+                                        <path d="M20.656 17.008a9.993 9.993 0 10-3.59 3.615L22 22z" fill="none"
+                                            stroke="currentColor" stroke-linejoin="round" stroke-width="2"></path>
+                                    </svg></a>
+                                <a href="#"><svg aria-label="Gönderi Paylaş" class="_8-yf5 " color="#262626"
+                                        fill="#262626" height="24" role="img" viewBox="0 0 24 24" width="24">
+                                        <line fill="none" stroke="currentColor" stroke-linejoin="round" stroke-width="2"
+                                            x1="22" x2="9.218" y1="3" y2="10.083"></line>
+                                        <polygon fill="none"
+                                            points="11.698 20.334 22 3.001 2 3.001 9.218 10.084 11.698 20.334"
+                                            stroke="currentColor" stroke-linejoin="round" stroke-width="2"></polygon>
+                                    </svg></a>
+
+
+
+                            </div>
+                            <div style="margin-right: 15px;">
+                                <a href="#">
+                                    <svg aria-label="Kaydet" class="_8-yf5 " color="#262626" fill="#262626" height="24"
+                                        role="img" viewBox="0 0 24 24" width="24">
+                                        <polygon fill="none" points="20 21 12 13.44 4 21 4 3 20 3 20 21"
+                                            stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                            stroke-width="2"></polygon>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="likeScreen" style="height: 20px;">
+                            <p style="font-size: 14px; margin-left: 15px !important;" class="m-0"><b>10.517 beğenme</b>
+                            </p>
+                        </div>
+
+                        <div class="commentScreen bg-light d-flex flex-column" style="height: 60px; font-size: 14px;">
+                            <div class="h-100">
+                                <div class="d-flex" style="margin-left:15px">
+                                    <b>
+                                        <p class="userName">hllcncngz</p>
+                                    </b>
+                                    <p style="margin-left: 5px;">Harika bir etkinlik olacak.</p>
+                                </div>
+                                <div class="d-flex" style="margin-left:15px">
+                                    <b><a class="text-secondary" href="#">
+                                            <p>162 Yorumun tümünü gör</p>
+                                        </a></b>
+                                </div>
+                                <div class="d-flex" style="margin-left:15px">
+                                    <b>
+                                        <p class="userName">kodluyoruz</p>
+                                    </b>
+                                    <p style="margin-left: 5px;">Herkezi bekliyoruz.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="clock" style="height: 20px;">
+                            <b>
+                                <p style="margin-left: 15px; color: gray; font-size: 14px;">8 ssat önce</p>
+                            </b>
+                        </div>
+
+                        <div class="addComment border d-flex align-items-center" style="height:50px;">
+                            <div style="margin-left: 15px;">
+                                <svg aria-label="İfade Simgesi" class="_8-yf5 " color="#262626" fill="#262626"
+                                    height="24" role="img" viewBox="0 0 24 24" width="24">
+                                    <path
+                                        d="M15.83 10.997a1.167 1.167 0 101.167 1.167 1.167 1.167 0 00-1.167-1.167zm-6.5 1.167a1.167 1.167 0 10-1.166 1.167 1.167 1.167 0 001.166-1.167zm5.163 3.24a3.406 3.406 0 01-4.982.007 1 1 0 10-1.557 1.256 5.397 5.397 0 008.09 0 1 1 0 00-1.55-1.263zM12 .503a11.5 11.5 0 1011.5 11.5A11.513 11.513 0 0012 .503zm0 21a9.5 9.5 0 119.5-9.5 9.51 9.51 0 01-9.5 9.5z">
+                                    </path>
+                                </svg>
+                            </div>
+                            <div class="d-flex justify-content-between w-100">
+                                <input id="commentInput" style="margin-left: 5px;" class="border-0"
+                                    placeholder="Yorum Ekle" type="text">
+                                <a style="margin-right: 15px;" href="">Paylaş</a>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!--* POST-2 END -->
+                    <!--* POST-3 START -->
+                    <div class="post d-flex bg-light w-100 mt-5 flex-column border">
+
+                        <div class="postHeader d-flex align-items-center" style="height:60px">
+                            <div class="d-flex flex-row align-items-center justify-content-between w-100">
+                                <div class="d-flex align-items-center justify-content-around"
+                                    style="margin-left: 10px;">
+                                    <a href="#"><img class="rounded-circle" width="40px" height="40px"
+                                            src="https://upload.wikimedia.org/wikipedia/commons/3/34/Elon_Musk_Royal_Society_%28crop2%29.jpg"
+                                            alt=""></a>
+                                    <p class="m-0" style="margin-left: 10px !important">Elon Musk</p>
+                                </div>
+                                <div style="margin-right: 10px;">
+                                    <i class="bi bi-three-dots"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="postImage bg-info" style="height:500px">
+                            <img class="h-100 w-100"
+                                src="https://cdn1.ntv.com.tr/gorsel/38ha5f0L1UmlmzxHMH4oXg.jpg?width=1000&mode=crop&scale=both"
+                                alt="">
+                        </div>
+
+                        <div class="postIcons d-flex flex-row justify-content-between align-items-center"
+                            style="height: 54px;">
+                            <div class="d-flex align-items-center" style="margin-left: 15px;">
+                                <a href="#"><svg aria-label="Beğen" class="_8-yf5 " color="#262626" fill="#262626"
+                                        height="24" role="img" viewBox="0 0 24 24" width="24">
+                                        <path
+                                            d="M16.792 3.904A4.989 4.989 0 0121.5 9.122c0 3.072-2.652 4.959-5.197 7.222-2.512 2.243-3.865 3.469-4.303 3.752-.477-.309-2.143-1.823-4.303-3.752C5.141 14.072 2.5 12.167 2.5 9.122a4.989 4.989 0 014.708-5.218 4.21 4.21 0 013.675 1.941c.84 1.175.98 1.763 1.12 1.763s.278-.588 1.11-1.766a4.17 4.17 0 013.679-1.938m0-2a6.04 6.04 0 00-4.797 2.127 6.052 6.052 0 00-4.787-2.127A6.985 6.985 0 00.5 9.122c0 3.61 2.55 5.827 5.015 7.97.283.246.569.494.853.747l1.027.918a44.998 44.998 0 003.518 3.018 2 2 0 002.174 0 45.263 45.263 0 003.626-3.115l.922-.824c.293-.26.59-.519.885-.774 2.334-2.025 4.98-4.32 4.98-7.94a6.985 6.985 0 00-6.708-7.218z">
+                                        </path>
+                                    </svg></a>
+                                <a href="#"><svg style="margin: 0 15px;" aria-label="Yorum Yap" class="_8-yf5 "
+                                        color="#262626" fill="#262626" height="24" role="img" viewBox="0 0 24 24"
+                                        width="24">
+                                        <path d="M20.656 17.008a9.993 9.993 0 10-3.59 3.615L22 22z" fill="none"
+                                            stroke="currentColor" stroke-linejoin="round" stroke-width="2"></path>
+                                    </svg></a>
+                                <a href="#"><svg aria-label="Gönderi Paylaş" class="_8-yf5 " color="#262626"
+                                        fill="#262626" height="24" role="img" viewBox="0 0 24 24" width="24">
+                                        <line fill="none" stroke="currentColor" stroke-linejoin="round" stroke-width="2"
+                                            x1="22" x2="9.218" y1="3" y2="10.083"></line>
+                                        <polygon fill="none"
+                                            points="11.698 20.334 22 3.001 2 3.001 9.218 10.084 11.698 20.334"
+                                            stroke="currentColor" stroke-linejoin="round" stroke-width="2"></polygon>
+                                    </svg></a>
+
+
+
+                            </div>
+                            <div style="margin-right: 15px;">
+                                <a href="#">
+                                    <svg aria-label="Kaydet" class="_8-yf5 " color="#262626" fill="#262626" height="24"
+                                        role="img" viewBox="0 0 24 24" width="24">
+                                        <polygon fill="none" points="20 21 12 13.44 4 21 4 3 20 3 20 21"
+                                            stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                            stroke-width="2"></polygon>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="likeScreen" style="height: 20px;">
+                            <p style="font-size: 14px; margin-left: 15px !important;" class="m-0"><b>156.952 beğenme</b>
+                            </p>
+                        </div>
+
+                        <div class="commentScreen bg-light d-flex flex-column" style="height: 60px; font-size: 14px;">
+                            <div class="h-100">
+                                <div class="d-flex" style="margin-left:15px">
+                                    <b>
+                                        <p class="userName">elonmusk</p>
+                                    </b>
+                                    <p style="margin-left: 5px;">That's just beatiful.</p>
+                                </div>
+                                <div class="d-flex" style="margin-left:15px">
+                                    <b><a class="text-secondary" href="#">
+                                            <p>1.863 Yorumun tümünü gör</p>
+                                        </a></b>
+                                </div>
+                                <div class="d-flex" style="margin-left:15px">
+                                    <b>
+                                        <p class="userName">kablosuzkedi</p>
+                                    </b>
+                                    <p style="margin-left: 5px;">Amazing!</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="clock" style="height: 20px;">
+                            <b>
+                                <p style="margin-left: 15px; color: gray; font-size: 14px;">15 ssat önce</p>
+                            </b>
+                        </div>
+
+                        <div class="addComment border d-flex align-items-center" style="height:50px;">
+                            <div style="margin-left: 15px;">
+                                <svg aria-label="İfade Simgesi" class="_8-yf5 " color="#262626" fill="#262626"
+                                    height="24" role="img" viewBox="0 0 24 24" width="24">
+                                    <path
+                                        d="M15.83 10.997a1.167 1.167 0 101.167 1.167 1.167 1.167 0 00-1.167-1.167zm-6.5 1.167a1.167 1.167 0 10-1.166 1.167 1.167 1.167 0 001.166-1.167zm5.163 3.24a3.406 3.406 0 01-4.982.007 1 1 0 10-1.557 1.256 5.397 5.397 0 008.09 0 1 1 0 00-1.55-1.263zM12 .503a11.5 11.5 0 1011.5 11.5A11.513 11.513 0 0012 .503zm0 21a9.5 9.5 0 119.5-9.5 9.51 9.51 0 01-9.5 9.5z">
+                                    </path>
+                                </svg>
+                            </div>
+                            <div class="d-flex justify-content-between w-100">
+                                <input id="commentInput" style="margin-left: 5px;" class="border-0"
+                                    placeholder="Yorum Ekle" type="text">
+                                <a style="margin-right: 15px;" href="">Paylaş</a>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!--* POST-3 END -->
+                </div>
+            </div>
+            <aside id="aside" class="col-4 bg-info p-2 bg-transparent">
+                <div style="position:fixed; max-width: 300px;">
+                    <div id="asideHeader" style="font-size: 14px;"
+                        class="d-flex flex-row align-items-center justify-content-between">
+                        <div class="d-flex flex-row align-items-center">
+                            <div>
+                                <img class="rounded-circle" width="60" height="60" src="./img/pixlr-bg-result (5).png"
+                                    alt="">
+                            </div>
+                            <div style="margin-left: 10px;" class="d-flex flex-column">
+                                <b>
+                                    <p>hllcnncgz</p>
+                                </b>
+                                <p>Halil Can Cengiz</p>
+                            </div>
+                        </div>
+                        <div>
+                            <a href="#">Geçiş Yap</a>
+                        </div>
+                    </div>
+                    <div id="aside-offer" style="font-size: 14px;"
+                        class="d-flex align-items-center justify-content-between mt-3">
+                        <p class="text-secondary">Senin için Önerilenler</p>
+                        <a href="#">Tümünü Gör</a>
+                    </div>
+                    <div id="aside-users d-flex flex-column" style="font-size: 13px;">
+                        <div class="user mt-3 d-flex justify-content-between align-items-center">
+                            <div class="userInfo d-flex flex-row align-items-center">
+                                <img class="rounded-circle" width="40" height="40"
+                                    src="data:image/jpeg;base64,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"
+                                    alt="">
+                                <div style="margin-left: 10px;">
+                                    <b>
+                                        <p>Jnnymd</p>
+                                    </b>
+                                    <p>Jenny Mark</p>
+                                </div>
+                            </div>
+                            <div>
+                                <a href="#">Takip Et</a>
+                            </div>
+                        </div>
+                        <div class="user mt-3 d-flex justify-content-between align-items-center">
+                            <div class="userInfo d-flex flex-row align-items-center">
+                                <img class="rounded-circle" width="40" height="40"
+                                    src="https://cdn.comsol.com/wordpress/2017/02/Christopher-Boucher_COMSOL-Blog-author.png"
+                                    alt="">
+                                <div style="margin-left: 10px;">
+                                    <b>
+                                        <p>prsly2</p>
+                                    </b>
+                                    <p>Presley Tracey</p>
+                                </div>
+                            </div>
+                            <div>
+                                <a href="#">Takip Et</a>
+                            </div>
+                        </div>
+                        <div class="user mt-3 d-flex justify-content-between align-items-center">
+                            <div class="userInfo d-flex flex-row align-items-center">
+                                <img class="rounded-circle" width="40" height="40"
+                                    src="https://miro.medium.com/max/302/0*WD2GEwqKXYaaQdnI.jpg" alt="">
+                                <div style="margin-left: 10px;">
+                                    <b>
+                                        <p>suziefh</p>
+                                    </b>
+                                    <p>Suzie Faithe</p>
+                                </div>
+                            </div>
+                            <div>
+                                <a href="#">Takip Et</a>
+                            </div>
+                        </div>
+                        <div class="user mt-3 d-flex justify-content-between align-items-center">
+                            <div class="userInfo d-flex flex-row align-items-center">
+                                <img class="rounded-circle" width="40" height="40"
+                                    src="https://preview.redd.it/lzenmgahw5f51.jpg?width=640&crop=smart&auto=webp&s=2ddf5243af27ec0e7c00d18835e8490755b1c2cd"
+                                    alt="">
+                                <div style="margin-left: 10px;">
+                                    <b>
+                                        <p>trvrkrstphr</p>
+                                    </b>
+                                    <p>Trevor Kristopher</p>
+                                </div>
+                            </div>
+                            <div>
+                                <a href="#">Takip Et</a>
+                            </div>
+                        </div>
+                        <div class="user mt-3 d-flex justify-content-between align-items-center">
+                            <div class="userInfo d-flex flex-row align-items-center">
+                                <img class="rounded-circle" width="40" height="40"
+                                    src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoHCBYWFRgWFhYYGBgYHBweGBoaHBgcGhocGhoaGhwcGBocIS4lHCErIRoaJjgmKy8xNTU1HCQ7QDs0Py40NTEBDAwMEA8QHxISHDYrJCs0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0Mf/AABEIAOEA4QMBIgACEQEDEQH/xAAbAAACAwEBAQAAAAAAAAAAAAAEBQADBgIHAf/EAD4QAAIBAgMFBgQEBAUEAwAAAAECAAMRBCExBRJBUWEGInGBkbEyocHwE0LR4VJicoIHFCOy8SQzkqIVNFP/xAAYAQADAQEAAAAAAAAAAAAAAAABAgMABP/EACIRAAMBAAIDAAIDAQAAAAAAAAABAhEhMQMSQTJREyKRBP/aAAwDAQACEQMRAD8A9CZpWzSlq0qatIlC5nlbPB2rStqmWcAS9ng9J7lj1t6RPtLtFTp3CnfYDQaeZmGrberVWcqxQNbeRWO75cvKYJ6BtTtBQoDvuCeCrmx8hMbtTtjWqZUh+GvPIufoPnEe5nfidSePjPm4I6QjZS92bedmZjxYkn5yBJeqXj3ZPZt6veYFU5nU+AtNVKVrDKdcIzgWFUNnO38o63+k3ibBwyDPfYjkSPWE0qlOwVe5/Ut5z1518LT4X9MXQ2Qctb3up/KeYB6+4hNPZLs6XU908jmOXrNcVZcxukcxaxnSViQefKK/K2P/ABIX4fYlMqA/O5AtbwMLbZmG4KB4Ze04rOSR6mKtpYlLbm+UJ42JHmRp6GT9n+ynqMv/AI7CnK9j0MV4vswBvPRLNxKk3PlpE9XC1qbAra2XUMDoQw1B6TVbFxT5BhukdbgjmIVTnnRahNHnuNqt+OqWItz8IiqakDmfee17T2HRq/6jU13xqwADdDcazDbY7GOCWpd4Z93/AIz950R5pZzV4qRnuzf/ANqh/Ws94RZ4XseiyYmiHBB/ETXncT3qmsuTRagl6mVoJYBAE5xSXRxzU+08xqr7H2nqVsiOhnnOLpWHgf1EnXDQZMltsXoL0Ij3YFS+HpHkLekS7XW9B+h9jDOy1T/phn8LH3jNcA+mpvJKPxJIuGG7bQEpqbSVRdiAOZM8/wAV2pJypL/c30EXio9Vru7N0JyHlpHwKN/iO0yZimN889F9eMV18XVq/G2X8K5D94swFLpNLs7Z5cgaX5xKaQyWiOthDundFzY2tF+zcBcm4Os9Efs1l8efRcvW8Bqdn61Elk3XXVgL73jY5+l5P+RDepjNubOKJvoGUDUEg+YNoow1Qtlx4dZu9t0r0HBHDK+sRdjtgNVffIIT352ju8Wg9deDns12d3v9SoO6NBzM0mMrhEJ+FVEZmiFAVRYAZCZDtdibqUGVwZy1bp8nREpdGc2n2lcsQh3VvpzlmxdoVKpsVJ/mU5+YORiGjgHr1FReJsPqZ6tsTYlPDoFUd7ieJMNesrPoy1sqwtJrZgw2lhRD1SdqknrH4QC2DECxGylOqx9uythMHTPDZalClsjcrxsTqPA8ufjAtlUChKHQZrxtzAvw19JpHSxuNZRWoDfDjiQfXWBgaDsKt18s/CD1cJun70heGXh0MuYXUHllAmSZm8fsJKjo5G66MpDAa2N7NzHtNKsqWmD5S9EynV4fL8ZDyR9RdTnYE4WXKJ2ET4sw+1aNg9uBPvNzMztWhcOPGS8nGDSec7QW9OoLab1veUdkn/0XXk1/lC8TmHHO/wAxFfZZrfiL4fpG+C/TT/iz7Ad+SDGEx2Hpxrg0g1OnGmETSMzIb7Np5z0Ds/gt7QaC8wuAGc9F7H1luyk5kZDnzkanWkym5PBpKOHCi2t9YPjcGN0lRYw8TisbKx6H2laiXOYSVPdPMu0eHLkUl1c3J5DjHGxcCtNBYAZWFuQ4y5cIru5OZuB4ccvWHVkt3ROC61nWlgLUPdJPH2nnfaOpk7+Q856FtJt1CTynmuPotVrJQB1N2ty59MokvaKT0M+wmy91DWYZv8HRf3/SbVBBsKioiouigAW6QkPH75KZiLlnV5SHkLwClrGUu04eqIO+IEOGLWaRcxBnxS8xLKNW+nKI0FrgPRrNOw1g0ofKx8583teoMGEmXUm94Uh4xImKyvzjLCYkFSPu8KQjDVEuVYJTeGIZ3+OtkhU4yWinGUbsw539o4tBKid8zeXoE9nj2JFnceXplEmwGtVcdPrNFthN2vUXk7f7iZmtnd3EsOYMeegND3ekkkh0AnpLG2FpwHD09I4wyRmjJheGFo3weKKEEGxEXU0hCoZOp0eXhq8J2gYCzWbrdgf/AFMmJ287La+X3x4zNopljOo1I84qlIJo9jk7pY8TD9/O8CwuSKOksZpyWtbLSL9u4rukfeUwWzEetXbdO7kbkcLnQTQdqcRYEDjEnZXEgNU570WUXkfrhHp23HJbqcj4w/CYxid1xY/KU1LkXlNCqd60cpg5FSD4jFWEvWndbxFtOqQbCZGOMTi3b4TaDjCu+Rc59ZWlW5tGVBLcYwGAP2bOoqOD4w/ZNB6dw77wGh4zs4sjK87w9e5MWugNPB0GuLc9PG0rL90npnBhW16BT+stepkTwORkkiTQuc5e3nCsHiPnb9D9IrqMQJ3hKmkpMiNmmSrxjSk1xEGGe6x1g3yl/FxwRsLg1Yd6EXg2JOYlb6Jz2eWdrE3cXV8QfVQfrMgjWxI6k/MTbduVti26oh+VvpMPiWtWQ9RGn8UauzQb0k+X+8pI3JinB0yxFhNTgNnEgXIHiYlwvZzEAXesqeGf6SnZeJRMQUxdVXo2K3DsN1rjdYhD3lNrEHnM6VPELjS02i4amuQbfYahAWPoJa2zMQykph2ta+9UKoLeBz48ucK7L4pMMHCOxoOQ9PcX8VVDa7xQF7E6N8PncRjtza9R1/BoKpWopDVbsNy+Vtwi5Y58co68T3Cb8qzdMtV2TiCLu6IN4iyXbhcWOXCX4HYqBgWZnPXT0h1CmURKe+z7gszMSxLHmTy+sKw6cZPyKZbSKeKnSTYSoA8py75SJpKcU9lM4qOueTGdoH3qp5KLmZTY2KqIWdE3t6xIJsBe/GaXagvTqvxfur55RnsfYypTAIuSBf0izSSLqWzM1u0GLVN9VQi9rWLEDOxLDXhnaG9lto18RWAqUt0AElgGA6azQLsClvbwWx6XHtHOBwqpoI7tZ0MppPdO6xstolxFC5uY32kCAIEM4q/YUIsWppd4IzX4jTwPKAbT7SVMMFY0FKt/Pn1BymxWiDkdDF+O7PhwRfI8DZh6GMqW8oFJ5wzHU+1oqAs1MqBmSDeNthbTWsrFb8OFtby1+xwKlC1gSSd0AQzAbHFBCo0yzmtz8AlX0YUqtx/Yt/SXs/cPzgCZelpcxP4b24REJQLWGUpwz5jxvLw10vAqbWMpJJmiwDx3g3mY2c/ePiI+oOQY08PRKGhciUYioDaLUxjh8zkN4252F4TQUtTLsylrg924FjbIg6ETpx1Oog6U1jML2+H/AFCHmg+RP6zCbU+JT4Tf9vx36R5hh8xMBtZchBPQWN/xBJFP+aPKSOA9I/xNp/5dQqMbOCbcQNNes8fq6z2btrh6WMqbxZgFFhYgaceMwWO7Ig3NOqb8msQfMaSKxM61/wA3l9dwK7BbSxe61KiaTIh3tyspZV3tShWzKTY6G09DSviX+N6aDT/TV94/3Ox3fIecx/YXZJoK7Oe8+RHK02aG0L81LhPg5a8M7tLkKwmBdh3FuB1F/O8tekyABgQesop6iXsbmSbQyR0TlF21X7p65Q+oYtx5uRIV0XjsR16YL00/muf7c5oaQymcpPvYkdFb6TRq2UVI656OiwGZg9XbCiwynOPJ3GtymQWhUZWLCxBIuvEcCIyHxNcmvq7Q/FFhqBBcO5Dbp1mSwr16VVbMXRsm3rXU8CJoExW86Z5k2jZgvr+jRU1uLy8GD0WtO2eLgCVGEBxT5GXVXi/EPe8DCUO+cupNcMOdx8oAj3A+9MjC8K/6wohQPh2vcc84Knxe0Ic7tQ8NYORZyJWeiTGOAbv+I9po6TZiZrBNmPvjNFR0HhGQlFGJyYG17HMcxoR6Xi7Y2Eq4d3TfNShUAKb1yylSLWJOYtl0tY2yvftpGzsbeHv7SrZhqkKS3dz3wQCGOgb+U+GspNYsJ1KfIt7fL3KbcmI+X7Tz7aOaz0Ttwt8Op/hcfMETz7GC6Sk9CiX8Qz7OM+RkjAGeM2nWc3Lv5MQPeCptGspuKjg+JPvKKLO+egnVYhR1+sGIdeSv2/8ARrhe1eIRlLMGUHvDdAJHW09NTHqlNHcOFf4WAJUi1za3KxnijG/KegYbGVGwdFCxKbjsovcbwvTy4jNiLSdyjOqb1vT0PAYhGQOjbykZGEqw5iV7PwgWki20UD5SxqIGcjgUzt1W198X5WN/a0TY5/iMYVBbOJ9ovZZKkXhCHDV7Ykdbj5ftNXSaYLEVtzEIf51/9rr9ZtqD2z6RUjpTGKplBauAULZR1g2M2sqWAOcXt2icZd09co0pjqapF+K2OW4EdRlJgtjqjBiSSOZvK6PaG57+nMcIxXFKwuDcR2Bqp7CmeUvUlT1RB2qxUhdLatWLqtWfa1SBVKmfnA0FssXiepP35iE4Y+xgyHI9PYy2g2UxKuinGGzg9Letv3nxx378wPac49sjeR3uFMpJFheHOfpNLhGuJl6DZzRYJ4yEob09nU3zc3/lvb1jgLTWmyqoUbpyAHKJA9lNhc8J0yWQjjbPxlFwSaMf2rzwzjkVPzE88rG6nwm+7QPvUXH8p+U8/Y92PIBbuD7Ek7tJHAcuDfKy/wBX0AgG8WcAtx1tp4QioNTuW6sc/nACbNzsZjBmKFvzX/ttNN2Momo+5fIlAB/fvN62iKrTBXV2Nrjl68Zp/wDDRC+IVVGh3jnwCke5i10E9qoURYCc48oiXMsopnPm08AlVLNqPhOeRkGuOAzm8ivE7QpOncHDXSx5TNbTqaQ1KZQMjagkfMxTj2zkKbfZ1wkujKbdezo3W/8A4kH6TbUam+gtxEw+29FPJo+7JYvfphCc0NvLh8ps4LS+Rg+zUBJYliefCC1tj0zmLjwJjrE4YuMjYxVVwVUHX5Rk94OibSXIONkIoydoPUw9ZM6ZDdNISyVBrLKKNxjp4LdpnzAYmoRZ13T7wxXlZ0lZeBkiV2gTvn5zutVge/cwNGbGWFbvEHih9QQR9ZbTMEwzd4HkvvL3yHrEfYjKMS194eMlPNB0NpUGuSDrb1ndBe6w/mylJI0FUGzmgwL5CZ6nqpjnANlHRNmioG8lV/QiU4Z8p0z8PpHFwwu1Xujjow95it4Ee81G1n3alRf5m8xrMogF2t5j6+EdEyi3WSTekhMAEp/C1+pv6waqtuIvyEOdAPyn+4wOrmL3t4RgM6/zLEAZ+RtNP2Dxoo1ajj4whAN723iPWZBWyMf9kK4Wt8O8G7pXW+py63tFtf1YZ/Jaew9ntvVHfcfvbwyyAIyuPGax6llsRnMBhtoIg3nUo35L5HytpCae3ne6uTbhfQ+dpzKuOS1wt/qFY9k3iVvc/F4zP41sz4RlWrXz5xTjWzP3wkn2dELEZjarZAdfv76SjY20fwKoY/Ccn8Ofl+ss2qfkYtrDOOjbyeuYasCoI0MtZ5532b7Qfhj8GocgbIx0twUn29JqRtEZZwOcKy00OHpg6gQSsoGkEfaQ5wHE7RvxjGYRWcQOrWtAK+0RzgFfaAtMLodXrypausR4jaB4SzB4pjf7tMLpqsM1hf8AlWX1HytwP0lCCyr5fKfKrXMm+zMpv3xyKwqg+RB55H6QK/fH9MMoi+d8+X6c/CURKi7DtmR4ERtgmziNH70b4R9I6EY/wjRhQEV4VoerZ8Ywqz6eadqltia1srML+DAWPrl6TJ75Vzwt6zVduu5iny+JEPv+kx71CSLm9hYdBraUnoR9l/45/hT/AMZJRvD7MkJgTEP0P9xzg9VhawPkB9Zy6OTcg+ct2fg/xai094LvG28QSBlfQC8bM5E3QOPOzFJvxUqC26jAm/S+Q65xtjOyVOiO/XDMpuwUWXdsCO9fW9xBBjhbcpjdQdMz4ydWmuB5hp8mwxm0lqOp3QN29r9ePjKnxJa1uBsfCZ2hUJ459MzNBhqRvvEWBHE5+QnPSOicQ4otl4QHFN8UOw9Ngl246eHCL8Tx8ZJlUZvaY18YBW4RjjdT4/WA4kaR5EYtxaXBPUS3Y+NcMFDHd5HO3hyn3FfDBcAbVF9J0zzJNt7waku/OcVEYjX9YSi3E7CSVTyVVClqRMpqUiNY7qIOMAxC6zKUZsUOlzGOzKd36fvK92M9k08x0mfQExvVa26J8JynFd7uegnyoe4fH6SK7HfRV+YEfw+x4QknTrAWy3D1t9+RhfDd8x4j79pRE6LPzHqAYzwDZRcpXj8Vsuo5Hrx9Ybg3zEdCM0eEbSM0eK8IdIxXSMiZ5z/iOn+uGH/55+TH9ZhQ83/+Jq7ppn+NWX5gzzpZSehH2ESTnPrJCY4xLiVYWiWYWDXGYI/WHl0LWKZDUk2+QGUIxNioCEbnIE/PIXlKtdIRSV1XZgFeqDbgzp9J9T8MDvVB4Jc8OLHWLq9cjJZxh6f5jmeUi5WFdNVRrKF7ijx/YaxlgaxJAPMZ8SZnaGKb8PI2ubHjoP0jLZjF2U52X35CQt4Vhcm5x7AEAcoixLZHzh1SoSLxbiGykMOgRYw5+Y+sBrnTxhmLbvDxgFf4pWUSZVivgPhAMOt2uIbifgMCwrWcfesvPQj7NfgKm8gPrC7RLsmvYleccgzDI+OIHWSGNKKiQBYu3Y42aloF+HGdLuoT095Ougo4DXfxvO8QbIfEynB5v5S3EfCZHR2B1Tlbw/aGrw8Ivq/SFg90SksnQRU0B8PWHYd84A+nzl+Be4HS/vHQjNPhKmka0nFxEWEfTyk21tNqad0Zm9idB4x0TYl/xct+DQYEEhyDnmLqT9J5kjy/atQuzsxYsXILOb+QPAcYHSOUsliJe2sKvJKJJsDoViXBO8BY/mA9wIOx5SO2UrV7fekGGPjD1hGEQm+thqf0ldNN76/XWWPU4DIdPr1gb4wKGNFL2XloPrHmDsqqByt58TEGzTp1yj6kg7vC2n6Tk8neHTBoL9xTAKxyhKt3BBHNxERYSYg94c84vxB7w+9IZVPft5wLEjvj75SskmV1fhi/83lGFXMRfVHe9JaSbGOzqvfBmmR9JlMIvfE0mGe4Ewy6Cd6fGEgWdNMEHaMMRkgHM+0Xr8YHM/vDcYfhHSRpjyVYAd5pfiNJXs788sxI7rHlJDMXse9bpDE+EQL82cMRspSRGW8B0lmCNj5/fvOKYuLcx858wpsYyEZoMI+ks2rS3l4Z/UQfCtnLNpvkORlESpHmm1sC6rUyNlYE6WzNv2ibDNc2PXy6eE2PaOmxFSxNnsbXyzAI+YMxVMZ+Go4zo7ItYEbj8pJ93j93kmAcK97X10+UrHKRtZ0RneLg5crWE5U5mcucvnOsNrFfCGXY2wKW3eZj5HzUX5RKgtYclB9eHyjKm97ZaZTi8jenTA4Vu5KW0lrCygSiscoEinwRPm5PSB4g3a/X2tC0+IwGuc/P6ysk6OHzEEqjPpxhzwR1zlZYgThhpH2DiTCre149w66Rd5HkNVZHGUvRMoPjMl8Y2mwowS7zluWQheJN38BONmU7C/M+05qtmx8ZGh0XbPXJ/vjOsSwCv4e2c+YL4G8pMScj1H0k8Cxe4G9lfTjL6WkGHCE0Wyt1+xHQjLabWtOkycj085Wgvl93nbi7K3PI+IjCjjDPpaWbVbuX4cenWD4Yy/aDjcNuUeWSox/aGoWQ2YjdAsQevtc/OZKo28xOQPHhe/HLK/hNhjnRwyPqUfMcLC/6HymMqAg24jQ8xOiSLCe909f3knX43QekkYUGB4TvUSp9Z2puuhgGIxyl+COZ++UGbQy7Ba+JX3i10PL5HlUWtnnoIZs57lhytaAYl8xfT9T+0Z9n6dyfU+HCcddHTI2qHIQbEcfCX1jmYJWfI+ERFGJ6fHn+sFrDPhCsMfi8IHU1+csidI+vmPKD1Ez++UK5eEocXv4R5YpfhRmPrNBhReZ7CHMHymkwsVjoc0kusAx4zh1OsAsCxFIubnTgIvsPhE7qeUFxGW942hVcd2B1hkPG5iUZBWFHcY+E5xLd2/Sd4b/tnqZVjH7ov4QGYCPpLsO8oBsw6D3EtpAZ2hQrCd4CEUgbMBqDce/6wFzp1H/MLotmDzHt/wAxtEY0wuYzFjOdpnuaa3Hy4T7hW3TzH0lm10BTJtDfr5RpeE6MdTxKurMV73UfELWNjzy0mdxOC/MjXAztxGfDnGGMD75JBXdbQaXJvvC2RB16aSYaogNzcZ8OHiJ0pkGLv80f4FnyOvwMN/CvzkjahTNGd0tB4/SSSYY+PCdm/F5iSSLX4jT2N8Xw8B7Rv2f1b+kSSTkvo6oGFWL20bz+s+ySaKMU4bRvKDPqPD6mSSWXQlHdPScVNfvmZJIwhzgvy+JmmwOn3ykkgfY6CuI8RD6nCSSS+lH0CYjTzEDxWgn2SaugIIw3/aHjBdofB5ySQfAguI1T+hP9qy2nofL6ySTIRnTfCvnC1+FPE/SfJIwrGNLQeEr238CeP0Mkkddkq6MoPgPg/wDveLB8Y8f1n2SdCIMukkkhAf/Z"
+                                    alt="">
+                                <div style="margin-left: 10px;">
+                                    <b>
+                                        <p>alexiaofficial</p>
+                                    </b>
+                                    <p>Alexia Fancy</p>
+                                </div>
+                            </div>
+                            <div>
+                                <a href="#">Takip Et</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="asidefooter" class="mt-3">
+                        <p><a href="#">Hakkımda</a>-<a href="#">Yardım</a>-<a href="#">Basın</a>-<a href="#">API</a>-<a
+                                href="#">İş Fırsatları</a>-<a href="#">Gizlilik</a>-<a href="#">Koşullar</a>-<a
+                                href="#">Konumlar</a>-<a href="#">Başıca Hesaplar</a>-<a href="#">Konu Etiketleri</a>-<a
+                                href="#">Dil</a>
+                        </p>
+                        <p style="font-size: 14px; color: gray;" class="mt-3">© 2022 INSTAGRAM FROM META</p>
+                    </div>
+                </div>
+
+            </aside>
+        </div>
+    </main>
+    <!--* Main END -->
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
